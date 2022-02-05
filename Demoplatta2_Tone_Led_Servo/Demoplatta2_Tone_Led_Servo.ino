@@ -236,9 +236,9 @@ delay(1000);
  digitalWrite(7, 0);
  digitalWrite(9, 0);
 
-// PLAY
+  // PLAY
 
-// iterate over the notes of the melody:
+  // iterate over the notes of the melody:
   for (int thisNote = 0; thisNote < 98; thisNote++) {
     // to calculate the note duration, take one second
     // divided by the note type.

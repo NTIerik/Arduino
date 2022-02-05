@@ -1,5 +1,5 @@
 ///////////////////////////////////////////////////////
-// Subject     : DEMOPLATTA2 - Ljud 7bit LED Motor
+// Subject     : DEMOPLATTA2 - Sound + 7bit LED + Motor
 // Author      : Erik Edlund
 // School      : NTI Gymnasiet Södertörn
 // Date        : 2019-02-05
@@ -7,6 +7,8 @@
 ///////////////////////////////////////////////////////
 // Description :
 //Visa på vad Aruino kan göra
+// Most of this code is NOT written by me.
+// It is only intended to demonstrate som somple tasks an Arduino can do.
 ///////////////////////////////////////////////////////
 
 ////////////////
@@ -103,7 +105,7 @@
 #define NOTE_D8  4699
 #define NOTE_DS8 4978
 
-// notes in the melody:
+// notes in the melody: MARIO 
 int melody[] = {
 NOTE_E4, NOTE_E4, NOTE_E4, NOTE_C4, NOTE_E4, NOTE_G4, NOTE_G3,
 NOTE_C4, NOTE_G3, NOTE_E3, NOTE_A3, NOTE_B3, NOTE_AS3, NOTE_A3, NOTE_G3, NOTE_E4, NOTE_G4, NOTE_A4, NOTE_F4, NOTE_G4, NOTE_E4, NOTE_C4, NOTE_D4, NOTE_B3,
